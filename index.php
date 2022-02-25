@@ -36,7 +36,6 @@ try {  $db = new PDO('mysql:host=localhost;dbname=gestioncontrat;charset=utf8','
         </button>
       </a>
     </div>
-
     <table class="table table-striped mt-4">
       <thead>
         <tr>
@@ -69,8 +68,8 @@ try {  $db = new PDO('mysql:host=localhost;dbname=gestioncontrat;charset=utf8','
                     <p>etes vous sur de vouloir supprimer ce poste ?</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-primary"
-                    data-bs-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Annuler</button>
+                   
                     <a href="delete.php?id=<?php echo $donn['id']; ?>">
                       <button class="btn btn-danger" type="button">Confirmer</button>
                     </a>
